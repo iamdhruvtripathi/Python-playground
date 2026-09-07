@@ -19,7 +19,7 @@ git clone https://github.com/iamdhruvtripathi/Python-playground.git
 cd Python-playground
 ```
 
-# Other random ideas
+## Other random ideas
 
 * `text_counter.py` — counts words, characters, lines, and sentences
 * `random_name_picker.py` — picks a random name from a list
