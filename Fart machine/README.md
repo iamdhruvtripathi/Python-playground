@@ -16,7 +16,7 @@ python3 -m pip install pynput playsound3
 ## Setup
 Place `fart-with-reverb.mp3` in the same folder as `fart_script.py`. The folder should look like:
 ```text
-fart-script/
+Fart machine/
 ├── fart_script.py
 ├── fart-with-reverb.mp3
 └── README.md
