@@ -2,7 +2,7 @@ from pynput import keyboard
 from playsound3 import playsound
 
 def fart():
-    playsound("MP3 files/fart-with-reverb.mp3")
+    playsound("fart-with-reverb.mp3")
 
 def on_press(key):
     try:
