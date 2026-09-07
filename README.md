@@ -19,9 +19,7 @@ git clone https://github.com/iamdhruvtripathi/Python-playground.git
 cd Python-playground
 ```
 
-## Other random ideas
-
-## Project Ideas
+## Other Projects & Ideas
 
 ### Finished Projects
 
@@ -143,3 +141,37 @@ cd Python-playground
 * `base64_tool.py` - encodes and decodes Base64 text
 * `timestamp_converter.py` - converts timestamps into readable dates
 * `timezone_converter.py` - converts times between time zones
+
+### Blue Team / Cybersecurity
+
+* `hash_generator.py` - generates hashes for text or files
+* `log_reader.py` - reads and displays security log files
+* `login_counter.py` - counts successful and failed login attempts
+* `failed_login_detector.py` - detects repeated failed login attempts in logs
+* `ip_extractor.py` - extracts IP addresses from log files
+* `log_search.py` - searches logs for specific words, IPs, or events
+* `login_tracker.py` - tracks successful and failed login attempts
+* `file_hash_checker.py` - calculates and compares file hashes
+* `file_integrity_monitor.py` - detects changes to monitored files
+* `directory_watcher.py` - monitors a folder for file changes
+* `process_monitor.py` - displays currently running processes
+* `network_connection_monitor.py` - displays active network connections
+* `port_monitor.py` - checks selected ports for changes
+* `startup_monitor.py` - lists programs configured to start automatically
+* `usb_monitor.py` - logs USB devices connected to the computer
+* `firewall_log_analyzer.py` - analyzes firewall logs for unusual activity
+* `auth_log_analyzer.py` - searches authentication logs for suspicious patterns
+* `brute_force_detector.py` - detects repeated authentication failures
+* `suspicious_process_detector.py` - flags processes matching configurable suspicious patterns
+* `ioc_checker.py` - checks IPs, domains, or file hashes against known indicators
+* `ip_reputation_checker.py` - checks IP addresses against a reputation service
+* `security_log_report.py` - generates a summary of important security events
+* `network_baseline.py` - records normal network activity for later comparison
+* `anomaly_detector.py` - identifies activity that differs from a basic baseline
+* `incident_timeline.py` - organizes security events into a chronological timeline
+* `pcap_summary.py` - summarizes information from network capture files
+* `threat_feed_reader.py` - reads defensive threat-intelligence feeds
+* `alert_manager.py` - collects and organizes security alerts
+* `security_dashboard.py` - displays security events and system statistics
+* `mini_siem.py` - collects logs and generates basic security alerts
+* `security_report_generator.py` - generates a complete defensive security report
