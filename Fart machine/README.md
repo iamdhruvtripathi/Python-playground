@@ -37,9 +37,15 @@ This script listens for keyboard input globally, so macOS requires Accessibility
 
 1. Go to System Settings → Privacy & Security → Accessibility
 2. Add and enable the application you are using to run the script
-3. If you are running the script from Terminal, add: `/System/Applications/Utilities/Terminal.app`
 
-*After enabling the permission, completely quit and reopen the application before running the script again*
+For example, this could be
+
+- Terminal
+- Visual Studio Code
+- PyCharm
+- Another application you use to run Python
+
+After enabling the permission, completely quit and reopen the application before running the script again
 
 ## Troubleshooting
 
