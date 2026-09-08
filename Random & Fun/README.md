@@ -117,6 +117,6 @@ Random & Fun/
 
 ## Notes
 
-* Some scripts interact with the keyboard, mouse, audio system, or other parts of the operating system. Depending on the script and operating system, additional permissions or dependencies may be required.
-* Scripts are intentionally small and independent, so each one can be run and experimented with on its own.
-* This project is a collection of experiments rather than a single application. Some scripts are useful, some are games, and some exist mostly because they seemed funny at the time.
+* Some scripts interact with the keyboard, mouse, audio system, or other parts of the operating system. Depending on the script and operating system, additional permissions or dependencies may be required
+* Scripts are intentionally small and independent, so each one can be run and experimented with on its own
+* This project is a collection of experiments rather than a single application. Some scripts are useful, some are games, and some exist mostly because they seemed funny at the time
