@@ -1,13 +1,17 @@
 # Random & Fun
 
-A collection of small Python scripts, games, utilities, experiments, and generally unnecessary programs. This project is mostly about having fun with Python while experimenting with things like randomness, keyboard input, sounds, timers, games, and simple automation
+A collection of small Python scripts, games, utilities, experiments, and generally unnecessary programs. This project is mostly about having fun with Python while experimenting with things like randomness, keyboard input, sounds, timers, games, APIs, and simple automation.
 
 ## Scripts
 
 ### Random & Games
+
 * **coin_flip.py** - Plays a coin flip game with guesses, scores, streaks, and statistics
 * **dice_roller.py** - Rolls dice from the terminal
-* **random_name_picker.py** - Picks a random name from a list
+* **random_name_picker.py** - Uses an API to randomly assign a name and country
+  ```bash
+  python3 -m pip install requests
+  ```
 * **fortune.py** - Gives random and questionable life advice
 * **compliment.py** - Randomly gives compliments
 * **insult_generator.py** - Generates random insults
@@ -15,30 +19,46 @@ A collection of small Python scripts, games, utilities, experiments, and general
 * **rock_paper_scissors.py** - Plays Rock Paper Scissors against the computer
 
 ### Productivity
+
 * **pomodoro.py** - Runs a simple productivity timer
 
 ### Generators
+
 * **password_generator.py** - Generates random passwords
 
 ### Sound & Keyboard
-* **fart_script.py** - Plays a fart sound when `F` is pressed
+
+* **fart_script.py** - Plays a fart sound when F is pressed
+  ```bash
+  python3 -m pip install pynput playsound3
+  ```
 * **bonk.py** - Plays a random sound when a key is pressed
+  ```bash
+  python3 -m pip install pynput playsound3
+  ```
 * **soundboard.py** - Maps keyboard keys to different sounds
+  ```bash
+  python3 -m pip install pynput playsound3
+  ```
 * **random_soundboard.py** - Plays random sounds from keyboard input
+  ```bash
+  python3 -m pip install pynput playsound3
+  ```
 
 ### Chaos & Shenanigans
+
 * **dramatic_button.py** - Does something unnecessarily dramatic when clicked
 * **computer_gremlin.py** - Creates harmless random computer shenanigans
 * **mouse_chaos.py** - Creates harmless random mouse shenanigans
 
+---
+
 ## Requirements
 
-Most scripts only require Python 3 and use the standard library
-
-Some scripts require additional Python packages. Check the individual script or its documentation for any dependencies. For scripts that use external packages, install them with:
+Most scripts only require Python 3 and use the standard library. Scripts that require additional Python packages list the installation command directly under the script. For example:
 
 ```bash
-python3 -m pip install <package-name>
+python3 -m pip install requests
 ```
 
 ## Running a Script
@@ -54,6 +74,8 @@ For example:
 ```bash
 python3 coin_flip.py
 ```
+
+---
 
 ## Project Structure
 
@@ -79,8 +101,10 @@ Random & Fun/
 └── README.md
 ```
 
+---
+
 ## Notes
 
-* Some scripts interact with the keyboard, mouse, audio system, or other parts of the operating system. Depending on the script and operating system, additional permissions or dependencies may be required
-* Scripts are intentionally small and independent, so each one can be run and experimented with on its own
-* This project is a collection of experiments rather than a single application. Some scripts are useful, some are games, and some exist mostly because they seemed funny at the time
+* Some scripts interact with the keyboard, mouse, audio system, or other parts of the operating system. Depending on the script and operating system, additional permissions or dependencies may be required.
+* Scripts are intentionally small and independent, so each one can be run and experimented with on its own.
+* This project is a collection of experiments rather than a single application. Some scripts are useful, some are games, and some exist mostly because they seemed funny at the time.
