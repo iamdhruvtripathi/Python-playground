@@ -1,94 +1,86 @@
-# Fart Script
+# Random & Fun
 
-A simple Python script that plays a fart sound whenever the F key is pressed
+A collection of small Python scripts, games, utilities, experiments, and generally unnecessary programs. This project is mostly about having fun with Python while experimenting with things like randomness, keyboard input, sounds, timers, games, and simple automation
+
+## Scripts
+
+### Random & Games
+* **coin_flip.py** - Plays a coin flip game with guesses, scores, streaks, and statistics
+* **dice_roller.py** - Rolls dice from the terminal
+* **random_name_picker.py** - Picks a random name from a list
+* **fortune.py** - Gives random and questionable life advice
+* **compliment.py** - Randomly gives compliments
+* **insult_generator.py** - Generates random insults
+* **number_guessing_game.py** - Creates a simple number guessing game
+* **rock_paper_scissors.py** - Plays Rock Paper Scissors against the computer
+
+### Productivity
+* **pomodoro.py** - Runs a simple productivity timer
+
+### Generators
+* **password_generator.py** - Generates random passwords
+
+### Sound & Keyboard
+* **fart_script.py** - Plays a fart sound when `F` is pressed
+* **bonk.py** - Plays a random sound when a key is pressed
+* **soundboard.py** - Maps keyboard keys to different sounds
+* **random_soundboard.py** - Plays random sounds from keyboard input
+
+### Chaos & Shenanigans
+* **dramatic_button.py** - Does something unnecessarily dramatic when clicked
+* **computer_gremlin.py** - Creates harmless random computer shenanigans
+* **mouse_chaos.py** - Creates harmless random mouse shenanigans
 
 ## Requirements
-* Python 3
-* pynput
-* playsound3
 
-Install the dependencies with
+Most scripts only require Python 3 and use the standard library
+
+Some scripts require additional Python packages. Check the individual script or its documentation for any dependencies. For scripts that use external packages, install them with:
 
 ```bash
-python3 -m pip install pynput playsound3
+python3 -m pip install <package-name>
 ```
 
-## Setup
-Place `fart-with-reverb.mp3` in the same folder as `fart_script.py`. The folder should look like:
+## Running a Script
+
+From the project directory, run a script with:
+
+```bash
+python3 script_name.py
+```
+
+For example:
+
+```bash
+python3 coin_flip.py
+```
+
+## Project Structure
+
 ```text
-Fart machine/
+Random & Fun/
+├── bonk.py
+├── coin_flip.py
+├── compliment.py
+├── computer_gremlin.py
+├── dice_roller.py
+├── dramatic_button.py
 ├── fart_script.py
-├── fart-with-reverb.mp3
+├── fortune.py
+├── insult_generator.py
+├── mouse_chaos.py
+├── number_guessing_game.py
+├── password_generator.py
+├── pomodoro.py
+├── random_name_picker.py
+├── random_soundboard.py
+├── rock_paper_scissors.py
+├── soundboard.py
 └── README.md
 ```
 
-## Usage
-Run the script with:
-```bash
-python3 fart_script.py
-```
-
-Then:
-* Press F to play the sound
-* Press ESC to exit
-
-## macOS Setup
-This script listens for keyboard input globally, so macOS requires Accessibility permission
-
-1. Go to System Settings → Privacy & Security → Accessibility
-2. Add and enable the application you are using to run the script
-
-For example, this could be
-
-- Terminal
-- Visual Studio Code
-- PyCharm
-- Another application you use to run Python
-
-After enabling the permission, completely quit and reopen the application before running the script again
-
-## Troubleshooting
-
-### F key does nothing
-If the script starts but pressing F does not trigger the sound, check that the application running the script has Accessibility permission. You may see:
-```text
-This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients
-```
-This means macOS has not granted the required permission. Enable Accessibility access and restart the application
-
-### ModuleNotFoundError
-If you see an error such as:
-```text
-ModuleNotFoundError: No module named 'pynput'
-```
-or:
-```text
-ModuleNotFoundError: No module named 'playsound3'
-```
-Install the dependencies with:
-```bash
-python3 -m pip install pynput playsound3
-```
-> Note: The original version of this script used the `keyboard` package, but it did not work correctly on macOS, so `pynput` is used instead.
-
-### can't open file
-If Python says it cannot find `fart_script.py`, make sure your terminal is in the correct folder
-
-Check your current directory with:
-```bash
-pwd
-```
-Check the files in the directory with:
-```bash
-ls
-```
-Then run the script using the correct filename:
-```bash
-python3 fart_script.py
-```
-
 ## Notes
-* The script uses `pynput` to listen for keyboard input
-* `playsound3` is used to play the audio file
-* The F key listener works globally while the script is running
-* macOS Accessibility permission is required for global keyboard input
+
+* Some scripts interact with the keyboard, mouse, audio system, or other parts of the operating system. Depending on the script and operating system, additional permissions or dependencies may be required
+* Scripts are intentionally small and independent, so each one can be run and experimented with on its own
+* This project is a collection of experiments rather than a single application. Some scripts are useful, some are games, and some exist mostly because they seemed funny at the time
