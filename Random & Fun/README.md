@@ -9,10 +9,16 @@ A collection of small Python scripts, games, utilities, experiments, and general
 * **coin_flip.py** - Plays a coin flip game with guesses, scores, streaks, and statistics
 * **dice_roller.py** - Rolls dice from the terminal
 * **random_name_picker.py** - Uses an API to randomly assign a name and country
+
   ```bash
   python3 -m pip install requests
   ```
 * **fortune.py** - Gives random and questionable life advice
+> Note to self: Do not send to many requests or you will get rate-limited
+```bash
+  python3 -m pip install requests
+```
+
 * **compliment.py** - Randomly gives compliments
 * **insult_generator.py** - Generates random insults
 * **number_guessing_game.py** - Creates a simple number guessing game
@@ -29,18 +35,22 @@ A collection of small Python scripts, games, utilities, experiments, and general
 ### Sound & Keyboard
 
 * **fart_script.py** - Plays a fart sound when F is pressed
+  
   ```bash
   python3 -m pip install pynput playsound3
   ```
 * **bonk.py** - Plays a random sound when a key is pressed
+  
   ```bash
   python3 -m pip install pynput playsound3
   ```
 * **soundboard.py** - Maps keyboard keys to different sounds
+  
   ```bash
   python3 -m pip install pynput playsound3
   ```
 * **random_soundboard.py** - Plays random sounds from keyboard input
+  
   ```bash
   python3 -m pip install pynput playsound3
   ```
