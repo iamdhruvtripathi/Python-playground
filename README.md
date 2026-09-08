@@ -21,12 +21,9 @@ cd Python-playground
 
 ## Other Projects & Ideas
 
-### Finished Projects
-
-* `fart_script.py` - plays a fart sound when F is pressed
-
 ### Random & Fun
 
+* `fart_script.py` - plays a fart sound when F is pressed
 * `coin_flip.py` - simulates a coin flip
 * `dice_roller.py` - rolls dice from the terminal
 * `random_name_picker.py` - picks a random name from a list
