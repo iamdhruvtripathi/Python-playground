@@ -14,7 +14,7 @@ A collection of small Python scripts, games, utilities, experiments, and general
   python3 -m pip install requests
   ```
 * **fortune.py** - Gives random and questionable life advice
-> Note to self: Do not send to many requests or you will get rate-limited
+  > Note to self: Do not send to many requests or you will get rate-limited
 ```bash
   python3 -m pip install requests
 ```
