@@ -12,7 +12,7 @@ def on_press(key):
         if key == keyboard.Key.esc:
             return False
 
-print("💨 Fart machine armed")
+print("Fart machine armed")
 print("Press F to fart. Press ESC to quit.")
 
 with keyboard.Listener(on_press=on_press) as listener:
