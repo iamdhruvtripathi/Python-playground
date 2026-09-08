@@ -15,9 +15,9 @@ A collection of small Python scripts, games, utilities, experiments, and general
   ```
 * **fortune.py** - Gives random and questionable life advice
   > Note to self: Do not send to many requests or you will get rate-limited
-```bash
-  python3 -m pip install requests
-```
+  ```bash
+    python3 -m pip install requests
+  ```
 
 * **compliment.py** - Randomly gives compliments
 * **insult_generator.py** - Generates random insults
