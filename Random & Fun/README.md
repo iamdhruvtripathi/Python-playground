@@ -1,6 +1,6 @@
 # Random & Fun
 
-A collection of small Python scripts, games, utilities, experiments, and generally unnecessary programs. This project is mostly about having fun with Python while experimenting with things like randomness, keyboard input, sounds, timers, games, APIs, and simple automation.
+A collection of small Python scripts, games, utilities, experiments, and generally unnecessary programs. This project is mostly about having fun with Python while experimenting with things like randomness, keyboard input, sounds, timers, games, APIs, and simple automation
 
 ## Scripts
 
